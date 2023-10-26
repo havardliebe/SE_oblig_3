@@ -9,6 +9,7 @@ def test_leap_year_dividible_by_4_but_not_100():
 def test_leap_year_dividible_by_400():
     assert isLeapYear(2000) == True
     assert isLeapYear(2400) == True
+    assert isLeapYear(2401) == True
 
 # Tester for ikke-skuddår
 def test_non_leap_year_not_dividible_by_4():
